@@ -13,6 +13,9 @@ body {
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-signin .checkbox {
@@ -25,44 +28,27 @@ body {
   height: auto;
   padding: 10px;
   font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
 }
 
 .form-signin .form-control:focus {
   z-index: 2;
+  border-color: #6e68eb;
+  box-shadow: none;
 }
 
 .form-signin input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  border-bottom-color: #ddd;
 }
 
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-}
-
-/* Estilos adicionais para tornar o formulário mais atraente */
-
-.form-signin {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-signin .form-control {
-  border: 1px solid #ddd;
-  border-radius: 3px;
-}
-
-.form-signin .form-control:focus {
-  border-color: #6e68eb;
-  box-shadow: none;
-}
-
-.form-signin input[type="email"],
-.form-signin input[type="password"] {
   border-bottom-color: #ddd;
 }
 
