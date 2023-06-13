@@ -57,7 +57,7 @@ body {
 }
 
 .form-signin .form-control:focus {
-  border-color: #6c63ff;
+  border-color: #6e68eb;
   box-shadow: none;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .form-signin input[type="submit"] {
-  background-color: #6c63ff;
+  background-color: #6e68eb;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -77,6 +77,6 @@ body {
 }
 
 .form-signin input[type="submit"]:hover {
-  background-color: #574feb;
+  background-color: #6c63ff;
 }
 
